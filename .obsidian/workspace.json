@@ -11,10 +11,14 @@
             "id": "c74d8c3ab1137845",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "业务/报销流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "报销流程"
             }
           }
         ]
@@ -153,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "业务/报销流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "报销流程 的大纲"
             }
           },
           {
@@ -193,6 +198,13 @@
   },
   "active": "c74d8c3ab1137845",
   "lastOpenFiles": [
+    "业务/回货流程.md",
+    "系统/图灵ERP.md",
+    "业务/接单流程.md",
+    "业务/业务流程总览.md",
+    "技术/技术栈总览.md",
+    "团队/阿文.md",
+    "团队/大王.md",
     "常见报错解决.md",
     "_AI_SYSTEM.md",
     "供应商映射.md",
@@ -204,21 +216,14 @@
     "未命名.canvas",
     "未命名.md",
     "团队/小李.md",
-    "团队/阿文.md",
-    "团队/大王.md",
     "技术/多Agent协作.md",
     "技术/自动化报销系统.md",
-    "技术/技术栈总览.md",
     "数据/凭证命名规则.md",
     "数据/使用部门映射.md",
     "数据/供应商列表.md",
     "系统/WorkBuddy系统.md",
     "系统/影刀RPA.md",
-    "系统/图灵ERP.md",
     "业务/报销流程.md",
-    "业务/回货流程.md",
-    "业务/接单流程.md",
-    "业务/业务流程总览.md",
     "知识库总览.md",
     "团队",
     "数据",
