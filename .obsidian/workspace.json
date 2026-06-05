@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9abe3cdf2d9eae9a",
+        "id": "784e5c766481cf22",
         "type": "tabs",
         "children": [
           {
-            "id": "42928f3101a1d47e",
+            "id": "c74d8c3ab1137845",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -160,13 +160,24 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "a57e20bab583df4b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1f912bc26d97029",
+  "active": "c74d8c3ab1137845",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名.md",
     "团队/小李.md",
     "团队/阿文.md",
     "团队/大王.md",
@@ -206,7 +219,6 @@
     "业务",
     "未命名 1.base",
     "报销上传规则.md",
-    "未命名.canvas",
     "未命名.base",
     "欢迎.md"
   ]
