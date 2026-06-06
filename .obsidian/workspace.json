@@ -70,8 +70,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c74d8c3ab1137845",
+  "active": "b3c79c8bfe16d93c",
   "lastOpenFiles": [
     "常见报错解决.md",
     "未命名 1.canvas",
