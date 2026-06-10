@@ -8,23 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c74d8c3ab1137845",
+            "id": "6097cd9dabaa7733",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "关系图谱"
-            }
-          },
-          {
-            "id": "6097cd9dabaa7733",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
             }
           }
         ]
@@ -176,8 +166,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -200,43 +190,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c74d8c3ab1137845",
+  "active": "6097cd9dabaa7733",
   "lastOpenFiles": [
+    "AI执行指南/Agent读取顺序.md",
+    "_AI_SYSTEM.md",
+    "常见报错解决.md",
+    "MyBrain/~$6.8报销_影刀格式.xlsx",
+    "团队/小王.md",
+    "团队/大王.md",
     "2026-06-06.md",
+    "团队/小李.md",
+    "MyBrain/6.8报销_影刀格式_修正版~ACA75.tmp",
+    "MyBrain/6.8报销_影刀格式~ABDE3.tmp",
+    "MyBrain/~$6.8报销_影刀格式_修正版.xlsx",
+    "支付凭证/370-优粤纺织.jpg",
+    "MyBrain/6.8报销_影刀格式~B60A8.tmp",
+    "MyBrain/6.8凭证改名记录_按原表序号.txt",
+    "支付凭证/375-隆发罗纹.jpg",
+    "tools/prepare_yingdao_reimbursement.py",
+    "MyBrain/6.8报销_影刀格式~5AE29.tmp",
+    "MyBrain/6.8报销_影刀格式_修正版~D8A9B.tmp",
+    "MyBrain/6.8凭证改名记录_按参考表修正.txt",
+    "支付凭证/3-NNF拉链.jpg",
+    "支付凭证/90-洲发纺织.jpg",
+    "支付凭证/90-广新布行.jpg",
+    "支付凭证/9-吴江市宏达喷织厂.jpg",
+    "支付凭证/75-隆发罗纹.jpg",
+    "支付凭证/75-怡丰布行.jpg",
+    "支付凭证/60-隆发罗纹.jpg",
+    "支付凭证/60-盛泰纺织.jpg",
+    "系统/影刀RPA.md",
+    "数据/凭证命名规则.md",
+    "业务/报销流程.md",
     "未命名.canvas",
     "知识库总览.md",
-    "未命名",
-    "未命名.base",
-    "常见报错解决.md",
     "未命名 1.canvas",
     "系统/图灵ERP.md",
     "业务/接单流程.md",
     "业务/业务流程总览.md",
     "业务/回货流程.md",
-    "业务/报销流程.md",
     "技术/技术栈总览.md",
     "团队/阿文.md",
-    "团队/大王.md",
-    "_AI_SYSTEM.md",
     "供应商映射.md",
     "AI执行指南/异常处理决策表.md",
     "AI执行指南/凭证匹配决策表.md",
     "AI执行指南/自动化任务输入输出模板.md",
-    "AI执行指南/Agent读取顺序.md",
-    "AI执行指南",
     "未命名.md",
-    "团队/小李.md",
     "技术/多Agent协作.md",
     "技术/自动化报销系统.md",
-    "数据/凭证命名规则.md",
-    "数据/使用部门映射.md",
-    "数据/供应商列表.md",
-    "系统/WorkBuddy系统.md",
-    "团队",
-    "数据",
-    "技术",
-    "系统",
-    "业务",
-    "未命名 1.base"
+    "数据/使用部门映射.md"
   ]
 }
