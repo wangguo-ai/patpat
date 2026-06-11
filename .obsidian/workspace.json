@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "784e5c766481cf22",
+        "id": "536bdb0bc066fc63",
         "type": "tabs",
         "children": [
           {
-            "id": "6097cd9dabaa7733",
+            "id": "51c661bd0a26db93",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -190,8 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6097cd9dabaa7733",
+  "active": "51c661bd0a26db93",
   "lastOpenFiles": [
+    "AI执行指南/凭证匹配决策表.md",
+    "团队/小李.md",
+    "知识库总览.md",
+    "数据/使用部门映射.md",
     "AI执行指南/Agent读取顺序.md",
     "_AI_SYSTEM.md",
     "常见报错解决.md",
@@ -199,7 +203,6 @@
     "团队/小王.md",
     "团队/大王.md",
     "2026-06-06.md",
-    "团队/小李.md",
     "MyBrain/6.8报销_影刀格式_修正版~ACA75.tmp",
     "MyBrain/6.8报销_影刀格式~ABDE3.tmp",
     "MyBrain/~$6.8报销_影刀格式_修正版.xlsx",
@@ -223,7 +226,6 @@
     "数据/凭证命名规则.md",
     "业务/报销流程.md",
     "未命名.canvas",
-    "知识库总览.md",
     "未命名 1.canvas",
     "系统/图灵ERP.md",
     "业务/接单流程.md",
@@ -233,11 +235,9 @@
     "团队/阿文.md",
     "供应商映射.md",
     "AI执行指南/异常处理决策表.md",
-    "AI执行指南/凭证匹配决策表.md",
     "AI执行指南/自动化任务输入输出模板.md",
     "未命名.md",
     "技术/多Agent协作.md",
-    "技术/自动化报销系统.md",
-    "数据/使用部门映射.md"
+    "技术/自动化报销系统.md"
   ]
 }
