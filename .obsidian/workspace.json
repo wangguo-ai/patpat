@@ -11,10 +11,10 @@
             "id": "51c661bd0a26db93",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bf2094f61bfb4380",
@@ -192,6 +193,7 @@
   },
   "active": "51c661bd0a26db93",
   "lastOpenFiles": [
+    "技术/自动化报销系统.md",
     "AI执行指南/凭证匹配决策表.md",
     "团队/小李.md",
     "知识库总览.md",
@@ -237,7 +239,6 @@
     "AI执行指南/异常处理决策表.md",
     "AI执行指南/自动化任务输入输出模板.md",
     "未命名.md",
-    "技术/多Agent协作.md",
-    "技术/自动化报销系统.md"
+    "技术/多Agent协作.md"
   ]
 }
