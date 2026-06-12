@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "业务/ai采购流程.md",
+                "file": "团队/阿文.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai采购流程"
+              "title": "阿文"
             }
           }
         ]
@@ -196,11 +196,12 @@
   },
   "active": "51c661bd0a26db93",
   "lastOpenFiles": [
+    "业务/ai采购流程.md",
     "_tmp_xiaowang_debug.py",
+    "xiaowang_click_failed_20260612_163920.png",
     "知识库总览.md",
     "系统/图灵ERP.md",
     "系统/影刀RPA.md",
-    "业务/ai采购流程.md",
     "团队/阿文.md",
     "团队/大王.md",
     "团队/小李.md",
@@ -225,7 +226,6 @@
     "tools/prepare_yingdao_reimbursement.py",
     "MyBrain/6.8报销_影刀格式~5AE29.tmp",
     "MyBrain/6.8报销_影刀格式_修正版~D8A9B.tmp",
-    "MyBrain/6.8凭证改名记录_按参考表修正.txt",
     "支付凭证/3-NNF拉链.jpg",
     "支付凭证/90-洲发纺织.jpg",
     "支付凭证/90-广新布行.jpg",
@@ -233,7 +233,6 @@
     "支付凭证/75-隆发罗纹.jpg",
     "支付凭证/75-怡丰布行.jpg",
     "支付凭证/60-隆发罗纹.jpg",
-    "支付凭证/60-盛泰纺织.jpg",
     "数据/凭证命名规则.md",
     "业务/报销流程.md",
     "未命名.canvas",
