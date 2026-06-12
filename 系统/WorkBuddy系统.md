@@ -87,3 +87,13 @@ flowchart TD
 - [[团队/小王|小王]]
 - [[技术/多Agent协作|多Agent协作]]
 - [[技术/自动化报销系统|自动化报销系统]]
+---
+
+## WorkBuddy RPA 复刻维护
+
+- 技能目录：`C:\\Users\\Administrator\\.workbuddy\\skills\\yingdao-rpa`
+- 入库复刻脚本：`purchase_auto_inbound.py`
+- 报销复刻脚本：`expense_reimbursement.py`
+- 当前维护要求：连接已登录浏览器、等待有超时、失败有清单、提交前必须拦截失败项。
+- 详细记录：[[技术/WorkBuddy RPA复刻审查|WorkBuddy RPA复刻审查]]
+
