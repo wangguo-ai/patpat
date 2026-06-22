@@ -1,0 +1,162 @@
+[
+  {
+    "file": "优粤纺织 U5919-51#黄色、U5919-85#蓝绿",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606180013",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-51#黄色 数量1米 单价40 金额40"
+  },
+  {
+    "file": "优粤纺织 U5919-51#黄色、U5919-85#蓝绿",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606180012",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-85#蓝绿 数量1米 单价40 金额40"
+  },
+  {
+    "file": "优粤纺织 UK92039-56#暗紫",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170031",
+    "quantity": 2,
+    "unit_price": 25,
+    "missing": [],
+    "raw_text": "UK92039-56#暗紫 数量2米 单价25 金额50"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170017",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-2#玫瑰色 数量1米 单价40 金额40"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170020",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-50#浅粉 数量2米，拆分到两张采购单之一，单价40"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170018",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-50#浅粉 数量2米，拆分到两张采购单之一，单价40"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170022",
+    "quantity": 1,
+    "unit_price": 40,
+    "missing": [],
+    "raw_text": "U5919-51#黄色 数量1米 单价40 金额40"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170012",
+    "quantity": 3,
+    "unit_price": 25,
+    "missing": [],
+    "raw_text": "UP6268-22#绿色 数量3米 单价25 金额75"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170013",
+    "quantity": 3,
+    "unit_price": 25,
+    "missing": [],
+    "raw_text": "UP6268-48#粉色 数量3米 单价25 金额75"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170014",
+    "quantity": 3,
+    "unit_price": 25,
+    "missing": [],
+    "raw_text": "UP6268-61#蓝色 数量3米 单价25 金额75"
+  },
+  {
+    "file": "优粤纺织 U5919/UP6268 多行",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170015",
+    "quantity": 3,
+    "unit_price": 25,
+    "missing": [],
+    "raw_text": "UP6268-31#黑色 数量3米 单价25 金额75"
+  },
+  {
+    "file": "文盛行（原乾辰世景） XS135577",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606180023",
+    "quantity": 1,
+    "unit_price": 11,
+    "missing": [],
+    "raw_text": "QC010-32 277#紫色 数量1米 单价11 金额11"
+  },
+  {
+    "file": "佛山市缤涛纺织有限公司 4行出货单",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606180017",
+    "quantity": 2,
+    "unit_price": 13,
+    "missing": [],
+    "raw_text": "BT0001C 253#粉色 数量2米 单价13 金额26"
+  },
+  {
+    "file": "佛山市缤涛纺织有限公司 4行出货单",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170033",
+    "quantity": 3,
+    "unit_price": 13,
+    "missing": [],
+    "raw_text": "BT0004 2#大红 数量3米 单价13 金额39"
+  },
+  {
+    "file": "佛山市缤涛纺织有限公司 4行出货单",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170034",
+    "quantity": 1,
+    "unit_price": 13,
+    "missing": [],
+    "raw_text": "BT0015A 3#墨蓝 数量1米 单价13 金额13"
+  },
+  {
+    "file": "佛山市缤涛纺织有限公司 4行出货单",
+    "engine": "agent-manual",
+    "status": "识别成功",
+    "order_no": "MCG202606170035",
+    "quantity": 1,
+    "unit_price": 13,
+    "missing": [],
+    "raw_text": "BT0015A 2#大红 数量1米 单价13 金额13"
+  }
+]
