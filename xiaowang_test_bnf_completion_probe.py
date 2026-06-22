@@ -18,6 +18,19 @@ async def main():
         context = await browser.new_context(viewport={"width": 1400, "height": 900}, locale="zh-CN")
         page = await context.new_page()
         await xw.ensure_logged_in(page, xw.PURCHASE_URL)
+        await page.goto(xw.PURCHASE_URL, wait_until="domcontentloaded", timeout=30000)
+        await page.wait_for_timeout(8000)
+        try:
+            await xw.wait_purchase_page_ready(page)
+        except Exception:
+            pass
+        if await page.query_selector(".ant-spin-spinning"):
+            await page.reload(wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(8000)
+            try:
+                await xw.wait_purchase_page_ready(page)
+            except Exception:
+                pass
 
         results = []
         for order_no in ORDERS:
