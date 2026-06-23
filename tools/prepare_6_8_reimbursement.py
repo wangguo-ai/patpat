@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
+import argparse
 from decimal import Decimal, ROUND_HALF_UP
 import os
 from pathlib import Path
@@ -220,7 +221,7 @@ def plan_upload_names(groups: list[tuple[Any, list[dict[str, Any]]]], vouchers: 
         {
             "serial": serial,
             "rows": rows,
-            "supplier": rows[-1]["supplier"] or rows[0]["supplier"],
+            "supplier": rows[0]["supplier"] or rows[-1]["supplier"],
             "total": group_total(rows),
         }
         for serial, rows in groups
@@ -296,6 +297,22 @@ def build_rows(groups: list[tuple[Any, list[dict[str, Any]]]], upload_names: dic
     detail_rows.append(["", "", "", "", "", ""])
     detail_rows.extend(assignment_details)
     return table_rows, detail_rows
+
+
+def sync_assignment_statuses(detail_rows: list[list[Any]], rename_log: list[list[Any]]) -> None:
+    status_by_name = {}
+    for _serial, _source, target_name, result in rename_log:
+        if not target_name:
+            continue
+        upload_name = Path(str(target_name)).stem
+        if result in {"已改名", "无需改名"}:
+            status_by_name[upload_name] = "已分配支付凭证"
+        elif result == "缺少支付凭证":
+            status_by_name[upload_name] = "缺少支付凭证"
+
+    for row in detail_rows:
+        if len(row) == 5 and row[1] in status_by_name:
+            row[4] = status_by_name[row[1]]
 
 
 def find_voucher(vouchers: list[dict[str, Any]], upload_name: str) -> dict[str, Any] | None:
@@ -415,13 +432,31 @@ def write_log(rename_log: list[list[Any]]) -> None:
             handle.write("\t".join(str(value) for value in row) + "\n")
 
 
+def configure_from_args() -> None:
+    global SOURCE_XLSX, VOUCHER_DIR, OUT_DIR, OUT_XLSX, LOG_TXT
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", default=str(SOURCE_XLSX))
+    parser.add_argument("--voucher-dir", default=str(VOUCHER_DIR))
+    parser.add_argument("--out-dir", default=str(OUT_DIR))
+    parser.add_argument("--prefix", default="6.8报销")
+    args = parser.parse_args()
+
+    SOURCE_XLSX = Path(args.source)
+    VOUCHER_DIR = Path(args.voucher_dir)
+    OUT_DIR = Path(args.out_dir)
+    OUT_XLSX = OUT_DIR / f"{args.prefix}_影刀格式.xlsx"
+    LOG_TXT = OUT_DIR / f"{args.prefix}凭证改名记录_按原表序号.txt"
+
+
 def main() -> None:
+    configure_from_args()
     OUT_DIR.mkdir(exist_ok=True)
     groups = load_source_groups()
     planned_vouchers = parse_vouchers()
     upload_names, assignment_details = plan_upload_names(groups, planned_vouchers)
     table_rows, detail_rows = build_rows(groups, upload_names, assignment_details)
     rename_log = rename_vouchers(upload_names)
+    sync_assignment_statuses(detail_rows, rename_log)
     write_workbook(table_rows, detail_rows, rename_log)
     write_log(rename_log)
 
