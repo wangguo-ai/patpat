@@ -11,14 +11,10 @@
             "id": "51c661bd0a26db93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "业务/ai采购流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ai采购流程"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -194,8 +190,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3c79c8bfe16d93c",
+  "active": "51c661bd0a26db93",
   "lastOpenFiles": [
+    "xiaowang_click_failed_20260627_161710.png",
+    "xiaowang_click_failed_20260627_161609.png",
+    "xiaowang_click_failed_20260627_161408.png",
+    "xiaowang_click_failed_20260627_161333.png",
+    "xiaowang_click_failed_20260627_161226.png",
+    "业务/ai采购流程.md",
     "xiaowang_supplier_docs_contact_20260627.jpg",
     "tmp_fix_xiaowang_encoding_20260627.py",
     "MyBrain/~$6.17对账_影刀格式.xlsx",
@@ -208,13 +210,7 @@
     "支付凭证/1599-佛山市缤涛纺织有限公司.jpg",
     "MyBrain/6.17对账凭证改名记录_按原表序号.txt",
     "MyBrain/6.17对账_影刀格式.xlsx",
-    "支付凭证/420.12-楠天纺织.jpg",
-    "支付凭证/85-怡丰布行.jpg",
-    "支付凭证/9-NNF拉链.jpg",
-    "支付凭证/25-隆发罗纹.jpg",
-    "支付凭证/60-隆发罗纹.jpg",
     "业务/业务流程总览.md",
-    "业务/ai采购流程.md",
     "tmp_update_yifeng_price_20260622.py",
     "tmp_update_confirm_notes_20260622.py",
     "tmp_update_inbound_details_20260622.py",
