@@ -194,8 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51c661bd0a26db93",
+  "active": "b3c79c8bfe16d93c",
   "lastOpenFiles": [
+    "xiaowang_supplier_docs_contact_20260627.jpg",
+    "tmp_fix_xiaowang_encoding_20260627.py",
     "MyBrain/~$6.17对账_影刀格式.xlsx",
     "MyBrain/6.17对账_影刀格式~E0DDC.tmp",
     "MyBrain/6.17对账_影刀格式~0E2E7.tmp",
@@ -217,8 +219,6 @@
     "tmp_update_confirm_notes_20260622.py",
     "tmp_update_inbound_details_20260622.py",
     "xiaowang_completion_bnf_retry_20260622.json",
-    "xiaowang_completion_bnf_test_20260622.json",
-    "xiaowang_probe_bnf_fill_no_submit.py",
     "AI执行指南/Agent读取顺序.md",
     "团队/阿文.md",
     "知识库总览.md",
