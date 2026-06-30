@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "536bdb0bc066fc63",
+        "id": "d25db9bd4af703c2",
         "type": "tabs",
         "children": [
           {
-            "id": "51c661bd0a26db93",
+            "id": "13f978221104312d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "xiaowang_click_failed_20260622_123334.png"
+                "file": "业务/ai采购流程.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "xiaowang_click_failed_20260622_123334"
+              "icon": "lucide-file",
+              "title": "ai采购流程"
             }
           }
         ]
@@ -193,8 +195,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "51c661bd0a26db93",
+  "active": "13f978221104312d",
   "lastOpenFiles": [
+    "团队/小李.md",
+    "xiaowang_click_failed_20260622_123334.png",
+    "技术/Codex介绍.md",
     "xiaowang_click_failed_20260622_123325.png",
     "xiaowang_click_failed_20260622_122926.png",
     "xiaowang_click_failed_20260618_174314.png",
@@ -204,8 +209,6 @@
     "xiaowang_bnf_probe_failed_MCG202606180018.png",
     "xiaowang_bnf_fill_probe_MCG202606180021.png",
     "lark_auth_qr_20260622.png",
-    "xiaowang_click_failed_20260622_125632.png",
-    "xiaowang_click_failed_20260622_125734.png",
     "业务/ai采购流程.md",
     "tmp_fix_xiaowang_encoding_20260627.py",
     "MyBrain/~$6.17对账_影刀格式.xlsx",
@@ -224,7 +227,6 @@
     "系统/图灵ERP.md",
     "系统/影刀RPA.md",
     "团队/大王.md",
-    "团队/小李.md",
     "团队/小王.md",
     "技术/WorkBuddy RPA复刻审查.md",
     "技术/自动化报销系统.md",
@@ -241,7 +243,6 @@
     "业务/回货流程.md",
     "技术/技术栈总览.md",
     "供应商映射.md",
-    "AI执行指南/异常处理决策表.md",
-    "AI执行指南/自动化任务输入输出模板.md"
+    "AI执行指南/异常处理决策表.md"
   ]
 }
