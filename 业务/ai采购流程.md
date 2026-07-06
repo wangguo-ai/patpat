@@ -6,7 +6,7 @@ tags:
   - workbuddy
   - rpa
 status: planning
-updated: 2026-06-12
+updated: 2026-07-06
 ---
 
 # ai采购流程

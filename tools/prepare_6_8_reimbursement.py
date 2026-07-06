@@ -37,7 +37,14 @@ def amount_label(value: Decimal) -> str:
 
 
 def norm(value: Any) -> str:
-    return str(value or "").strip().replace("（", "(").replace("）", ")")
+    return (
+        str(value or "")
+        .strip()
+        .replace("（", "(")
+        .replace("）", ")")
+        .replace("巨鍍", "巨鍑")
+        .replace("巨凳", "巨鍑")
+    )
 
 
 def sort_key(value: Any) -> tuple[int, Decimal | str]:
@@ -70,7 +77,8 @@ def load_source_groups() -> list[tuple[Any, list[dict[str, Any]]]]:
         serial = row[0]
         if serial is None or str(serial).strip() == "":
             continue
-        amount = dec(row[28])
+        diff = dec(row[27] if row[27] is not None else 0)
+        amount = dec(row[28]) if row[28] is not None else (dec(row[26]) + diff).quantize(Decimal("0.01"))
         groups[serial].append(
             {
                 "source_row": source_row,
@@ -78,8 +86,9 @@ def load_source_groups() -> list[tuple[Any, list[dict[str, Any]]]]:
                 "po": row[1],
                 "supplier": row[9] or "",
                 "stock_amount": amount,
+                "payment_amount": amount,
                 "date": row[42] or row[37] or "",
-                "diff": row[27] if row[27] is not None else 0,
+                "diff": float(diff) if diff != diff.to_integral_value() else int(diff),
                 "system_amount": row[26] if row[26] is not None else amount,
                 "remark": row[6] or "",
             }
@@ -89,7 +98,7 @@ def load_source_groups() -> list[tuple[Any, list[dict[str, Any]]]]:
 
 
 def group_total(rows: list[dict[str, Any]]) -> Decimal:
-    return sum((row["stock_amount"] for row in rows), Decimal("0.00")).quantize(Decimal("0.01"))
+    return sum((row["payment_amount"] for row in rows), Decimal("0.00")).quantize(Decimal("0.01"))
 
 
 def parse_vouchers() -> list[dict[str, Any]]:
@@ -155,11 +164,12 @@ def solve_supplier_run(items: list[dict[str, Any]], vouchers: list[dict[str, Any
         total = Decimal("0.00")
         for end in range(position, len(items)):
             total += items[end]["total"]
-            matches = [
-                (abs(vouchers[index]["amount"] - total), index)
-                for index in remaining
-                if abs(vouchers[index]["amount"] - total) <= AMOUNT_TOLERANCE
-            ]
+            matches = []
+            for index in remaining:
+                amount_delta = abs(vouchers[index]["amount"] - total)
+                tolerance = Decimal("1.00") if "明达" in norm(supplier) else AMOUNT_TOLERANCE
+                if amount_delta <= tolerance:
+                    matches.append((amount_delta, index))
             for amount_delta, voucher_index in sorted(matches):
                 next_remaining = tuple(index for index in remaining if index != voucher_index)
                 miss, unused, chunks, plan = recurse(end + 1, next_remaining)

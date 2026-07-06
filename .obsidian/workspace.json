@@ -11,14 +11,12 @@
             "id": "13f978221104312d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "业务/ai采购流程.md",
-                "mode": "source",
-                "source": false
+                "file": "xiaowang_supplier_docs_contact_20260629.jpg"
               },
-              "icon": "lucide-file",
-              "title": "ai采购流程"
+              "icon": "lucide-image",
+              "title": "xiaowang_supplier_docs_contact_20260629"
             }
           }
         ]
@@ -197,19 +195,20 @@
   },
   "active": "13f978221104312d",
   "lastOpenFiles": [
-    "团队/小李.md",
-    "xiaowang_click_failed_20260622_123334.png",
-    "技术/Codex介绍.md",
-    "xiaowang_click_failed_20260622_123325.png",
-    "xiaowang_click_failed_20260622_122926.png",
-    "xiaowang_click_failed_20260618_174314.png",
-    "xiaowang_bnf_probe_MCG202606180021.png",
-    "xiaowang_bnf_probe_MCG202606180018.png",
-    "xiaowang_bnf_probe_failed_MCG202606180021.png",
-    "xiaowang_bnf_probe_failed_MCG202606180018.png",
-    "xiaowang_bnf_fill_probe_MCG202606180021.png",
-    "lark_auth_qr_20260622.png",
+    "xiaowang_click_failed_20260622_131608.png",
+    "xiaowang_click_failed_20260627_161710.png",
+    "xiaowang_click_failed_20260627_162214.png",
+    "xiaowang_click_failed_20260627_162617.png",
+    "xiaowang_click_failed_20260627_163826.png",
+    "xiaowang_click_failed_20260627_163523.png",
+    "xiaowang_click_failed_20260627_163422.png",
+    "xiaowang_supplier_docs_contact_20260627.jpg",
+    "xiaowang_wait_receive_probe.png",
+    "xiaowang_click_failed_20260622_125742.png",
+    "xiaowang_click_failed_20260622_124112.png",
     "业务/ai采购流程.md",
+    "团队/小李.md",
+    "技术/Codex介绍.md",
     "tmp_fix_xiaowang_encoding_20260627.py",
     "MyBrain/~$6.17对账_影刀格式.xlsx",
     "MyBrain/6.17对账_影刀格式~E0DDC.tmp",

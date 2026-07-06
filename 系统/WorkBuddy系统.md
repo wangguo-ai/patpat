@@ -82,10 +82,9 @@ flowchart TD
 ## WorkBuddy RPA 复刻维护
 
 - 技能目录：`C:\Users\Administrator\.workbuddy\skills\yingdao-rpa`
-- 入库复刻脚本：`purchase_auto_inbound.py`
-- 报销复刻脚本：`expense_reimbursement.py`
-- 当前维护要求：连接已登录浏览器、等待有超时、失败有清单、提交前必须拦截失败项。
-- 详细记录：[[技术/WorkBuddy RPA复刻审查|WorkBuddy RPA复刻审查]]
+- 入库复刻：`purchase_auto_inbound.py`；报销复刻：`expense_reimbursement.py`
+- 维护要求：连接已登录浏览器、等待有超时、失败有清单、提交前拦截失败项。
+- 详细记录（权威）：[[技术/WorkBuddy RPA复刻审查|WorkBuddy RPA复刻审查]]
 
 ---
 

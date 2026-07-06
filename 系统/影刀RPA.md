@@ -76,10 +76,8 @@
 
 ## WorkBuddy 复刻代码维护
 
-- 复刻代码位置：`C:\\Users\\Administrator\\.workbuddy\\skills\\yingdao-rpa`
+- 复刻代码位置：`C:\Users\Administrator\.workbuddy\skills\yingdao-rpa`
 - 已审查脚本：`purchase_auto_inbound.py`、`expense_reimbursement.py`
-- 维护原则：复刻前先读取影刀原始 `mf*.py` / `process*.py`，不得只凭页面猜流程。
-- CDP 连接失败时必须停止并提示，不得静默打开无登录态浏览器。
-- 报销上传默认 `strict=True`：采购单添加或凭证上传有失败时，不保存报销单。
-- 详细审查和修复记录见 [[技术/WorkBuddy RPA复刻审查|WorkBuddy RPA复刻审查]]。
+- 维护原则：复刻前先读影刀原始 `mf*.py`/`process*.py`；CDP 失败必须停止；报销上传默认 `strict=True`。
+- 详细审查与修复记录（权威）：[[技术/WorkBuddy RPA复刻审查|WorkBuddy RPA复刻审查]]
 
