@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_P2_cleanup_manifest.md",
+                "file": "技术/多Agent协作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_P2_cleanup_manifest"
+              "title": "多Agent协作"
             }
           }
         ]
@@ -197,8 +197,14 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
-    "技术/多Agent协作.md",
+    "技术/统一调度中枢设计.md",
+    "技术/自动化报销系统.md",
     "技术/Codex介绍.md",
+    "技术/WorkBuddy RPA复刻审查.md",
+    "技术/技术栈总览.md",
+    "技术/多Agent协作.md",
+    "AI执行指南/Agent读取顺序.md",
+    "_P2_cleanup_manifest.md",
     "团队/小吴.md",
     "团队/小王.md",
     "团队/阿文.md",
@@ -208,7 +214,6 @@
     "数据/供应商列表.md",
     "知识库总览.md",
     "_AI_SYSTEM.md",
-    "AI执行指南/Agent读取顺序.md",
     "报销上传规则.md",
     "供应商映射.md",
     "业务/ai采购流程.md",
@@ -237,12 +242,7 @@
     "tmp_update_confirm_notes_20260622.py",
     "tmp_update_inbound_details_20260622.py",
     "xiaowang_completion_bnf_retry_20260622.json",
-    "技术/WorkBuddy RPA复刻审查.md",
-    "技术/自动化报销系统.md",
     "AI执行指南/凭证匹配决策表.md",
-    "常见报错解决.md",
-    "2026-06-06.md",
-    "业务/报销流程.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
