@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d25db9bd4af703c2",
+        "id": "8414950ef508d2f4",
         "type": "tabs",
         "children": [
           {
-            "id": "13f978221104312d",
+            "id": "f3712e4a76cadfe8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "xiaowang_supplier_docs_contact_20260629.jpg"
+                "file": "_P2_cleanup_manifest.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "xiaowang_supplier_docs_contact_20260629"
+              "icon": "lucide-file",
+              "title": "_P2_cleanup_manifest"
             }
           }
         ]
@@ -193,8 +195,30 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "13f978221104312d",
+  "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "技术/多Agent协作.md",
+    "技术/Codex介绍.md",
+    "团队/小吴.md",
+    "团队/小王.md",
+    "团队/阿文.md",
+    "团队/大王.md",
+    "数据/使用部门映射.md",
+    "数据/凭证命名规则.md",
+    "数据/供应商列表.md",
+    "知识库总览.md",
+    "_AI_SYSTEM.md",
+    "AI执行指南/Agent读取顺序.md",
+    "报销上传规则.md",
+    "供应商映射.md",
+    "业务/ai采购流程.md",
+    "业务/业务流程总览.md",
+    "业务/接单流程.md",
+    "系统/影刀RPA.md",
+    "系统/图灵ERP.md",
+    "xiaowang_supplier_docs_contact_20260629.jpg",
+    "xiaowang_supplier_docs_contact_20260627.jpg",
+    "xiaowang_supplier_docs_contact_20260622.jpg",
     "xiaowang_click_failed_20260622_131608.png",
     "xiaowang_click_failed_20260627_161710.png",
     "xiaowang_click_failed_20260627_162214.png",
@@ -202,46 +226,24 @@
     "xiaowang_click_failed_20260627_163826.png",
     "xiaowang_click_failed_20260627_163523.png",
     "xiaowang_click_failed_20260627_163422.png",
-    "xiaowang_supplier_docs_contact_20260627.jpg",
-    "xiaowang_wait_receive_probe.png",
-    "xiaowang_click_failed_20260622_125742.png",
-    "xiaowang_click_failed_20260622_124112.png",
-    "业务/ai采购流程.md",
     "团队/小李.md",
-    "技术/Codex介绍.md",
     "tmp_fix_xiaowang_encoding_20260627.py",
     "MyBrain/~$6.17对账_影刀格式.xlsx",
     "MyBrain/6.17对账_影刀格式~E0DDC.tmp",
     "MyBrain/6.17对账_影刀格式~0E2E7.tmp",
     "MyBrain/6.17对账凭证改名记录_按原表序号.txt",
     "MyBrain/6.17对账_影刀格式.xlsx",
-    "业务/业务流程总览.md",
     "tmp_update_yifeng_price_20260622.py",
     "tmp_update_confirm_notes_20260622.py",
     "tmp_update_inbound_details_20260622.py",
     "xiaowang_completion_bnf_retry_20260622.json",
-    "AI执行指南/Agent读取顺序.md",
-    "团队/阿文.md",
-    "知识库总览.md",
-    "系统/图灵ERP.md",
-    "系统/影刀RPA.md",
-    "团队/大王.md",
-    "团队/小王.md",
     "技术/WorkBuddy RPA复刻审查.md",
     "技术/自动化报销系统.md",
     "AI执行指南/凭证匹配决策表.md",
-    "数据/使用部门映射.md",
-    "_AI_SYSTEM.md",
     "常见报错解决.md",
     "2026-06-06.md",
-    "数据/凭证命名规则.md",
     "业务/报销流程.md",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "业务/接单流程.md",
-    "业务/回货流程.md",
-    "技术/技术栈总览.md",
-    "供应商映射.md",
-    "AI执行指南/异常处理决策表.md"
+    "未命名 1.canvas"
   ]
 }
