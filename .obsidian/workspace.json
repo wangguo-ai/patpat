@@ -197,6 +197,7 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "数据/对账记录/~$7-1对账_影刀格式.xlsx",
     "tools/sample_allocate_manage.html",
     "tools/sample_demand_page.html",
     "tools/_exec_checkready.log",
@@ -208,7 +209,6 @@
     "技术/统一调度中枢设计.md",
     "tools/probe_turing_cdp5.py",
     "tools/probe_turing_cdp4.py",
-    "tools/probe_turing_cdp3b.py",
     "技术/多Agent协作.md",
     "技术/自动化报销系统.md",
     "技术/Codex介绍.md",
