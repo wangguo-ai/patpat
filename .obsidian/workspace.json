@@ -197,6 +197,12 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "tools/probe_turing_cdp5.py",
+    "tools/probe_turing_cdp4.py",
+    "tools/probe_turing_cdp3b.py",
+    "tools/probe_turing_cdp3.py",
+    "tools/probe_turing_cdp2.py",
+    "tools/probe_turing_cdp.py",
     "技术/多Agent协作.md",
     "技术/统一调度中枢设计.md",
     "技术/自动化报销系统.md",
@@ -237,12 +243,6 @@
     "MyBrain/6.17对账_影刀格式~E0DDC.tmp",
     "MyBrain/6.17对账_影刀格式~0E2E7.tmp",
     "MyBrain/6.17对账凭证改名记录_按原表序号.txt",
-    "MyBrain/6.17对账_影刀格式.xlsx",
-    "tmp_update_yifeng_price_20260622.py",
-    "tmp_update_confirm_notes_20260622.py",
-    "tmp_update_inbound_details_20260622.py",
-    "xiaowang_completion_bnf_retry_20260622.json",
-    "AI执行指南/凭证匹配决策表.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
