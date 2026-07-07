@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术/统一调度中枢设计.md",
+                "file": "技术/多Agent协作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统一调度中枢设计"
+              "title": "多Agent协作"
             }
           }
         ]
@@ -197,6 +197,12 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "tools/_exec_attrs.py",
+    "tools/_exec_parse.py",
+    "tools/_turing_demand.html",
+    "tools/_exec_probe.log",
+    "tools/_exec_probe.py",
+    "技术/统一调度中枢设计.md",
     "tools/probe_turing_cdp5.py",
     "tools/probe_turing_cdp4.py",
     "tools/probe_turing_cdp3b.py",
@@ -204,7 +210,6 @@
     "tools/probe_turing_cdp2.py",
     "tools/probe_turing_cdp.py",
     "技术/多Agent协作.md",
-    "技术/统一调度中枢设计.md",
     "技术/自动化报销系统.md",
     "技术/Codex介绍.md",
     "技术/WorkBuddy RPA复刻审查.md",
@@ -238,11 +243,6 @@
     "xiaowang_click_failed_20260627_163523.png",
     "xiaowang_click_failed_20260627_163422.png",
     "团队/小李.md",
-    "tmp_fix_xiaowang_encoding_20260627.py",
-    "MyBrain/~$6.17对账_影刀格式.xlsx",
-    "MyBrain/6.17对账_影刀格式~E0DDC.tmp",
-    "MyBrain/6.17对账_影刀格式~0E2E7.tmp",
-    "MyBrain/6.17对账凭证改名记录_按原表序号.txt",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
