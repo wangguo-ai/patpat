@@ -197,6 +197,8 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "tools/sample_demand_page.html",
+    "tools/_exec_checkready.log",
     "tools/_exec_attrs.py",
     "tools/_exec_parse.py",
     "tools/_turing_demand.html",
@@ -207,8 +209,6 @@
     "tools/probe_turing_cdp4.py",
     "tools/probe_turing_cdp3b.py",
     "tools/probe_turing_cdp3.py",
-    "tools/probe_turing_cdp2.py",
-    "tools/probe_turing_cdp.py",
     "技术/多Agent协作.md",
     "技术/自动化报销系统.md",
     "技术/Codex介绍.md",
