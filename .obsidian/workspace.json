@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术/多Agent协作.md",
+                "file": "技术/统一调度中枢设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多Agent协作"
+              "title": "统一调度中枢设计"
             }
           }
         ]
@@ -197,12 +197,12 @@
   },
   "active": "f3712e4a76cadfe8",
   "lastOpenFiles": [
+    "技术/多Agent协作.md",
     "技术/统一调度中枢设计.md",
     "技术/自动化报销系统.md",
     "技术/Codex介绍.md",
     "技术/WorkBuddy RPA复刻审查.md",
     "技术/技术栈总览.md",
-    "技术/多Agent协作.md",
     "AI执行指南/Agent读取顺序.md",
     "_P2_cleanup_manifest.md",
     "团队/小吴.md",
