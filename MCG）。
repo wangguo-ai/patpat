@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_4070d243f4bf5f6c5c2a4fd5f2d11c32",
+    "create_time": "2026-07-13 10:27:38",
+    "message_id": "om_x100b6a709f6c9cb0c3d74095ff14c6a"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.50",
+      "latest": "1.0.68",
+      "message": "lark-cli 1.0.68 available, current 1.0.50, run: lark-cli update"
+    }
+  }
+}

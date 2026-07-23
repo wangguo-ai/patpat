@@ -1,0 +1,102 @@
+[
+  {
+    "row": 2,
+    "task": "MJG202604070009",
+    "design": "THY260300461",
+    "flower": "HX2601916",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_2_MJG202604070009.png",
+    "bytes": 2404,
+    "rowText": "MJG202604070009\n超期41天16小时"
+  },
+  {
+    "row": 3,
+    "task": "MJG202604070010",
+    "design": "THY260300461",
+    "flower": "HX2601917",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_3_MJG202604070010.png",
+    "bytes": 2404,
+    "rowText": "MJG202604070010\n超期41天16小时"
+  },
+  {
+    "row": 4,
+    "task": "MJG202604070011",
+    "design": "THY260300461",
+    "flower": "HX2601918",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_4_MJG202604070011.jpg",
+    "bytes": 4320,
+    "rowText": "MJG202604070011\n超期41天16小时"
+  },
+  {
+    "row": 5,
+    "task": "MJG202604070029",
+    "design": "CSCH260400079",
+    "flower": "HX2601937",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_5_MJG202604070029.jpg",
+    "bytes": 4316,
+    "rowText": "MJG202604070029\n超期34天20小时"
+  },
+  {
+    "row": 6,
+    "task": "MJG202604160036",
+    "design": "CSCH260400186",
+    "flower": "HX2602315",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_6_MJG202604160036.jpg",
+    "bytes": 4014,
+    "rowText": "MJG202604160036\n超期30天5小时"
+  },
+  {
+    "row": 7,
+    "task": "MJG202604160037",
+    "design": "CSCH260400186",
+    "flower": "HX2602316",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_7_MJG202604160037.jpg",
+    "bytes": 3687,
+    "rowText": "MJG202604160037\n超期30天5小时"
+  },
+  {
+    "row": 8,
+    "task": "MJG202604240013",
+    "design": "CSCH260400231",
+    "flower": "HX2602324",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_8_MJG202604240013.jpg",
+    "bytes": 4107,
+    "rowText": "MJG202604240013\n超期29天15小时"
+  },
+  {
+    "row": 9,
+    "task": "MJG202604170038",
+    "design": "CSCH260400252",
+    "flower": "HX2602308",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_9_MJG202604170038.jpg",
+    "bytes": 4099,
+    "rowText": "MJG202604170038\n超期27天19小时"
+  },
+  {
+    "row": 10,
+    "task": "MJG202604170039",
+    "design": "CSCH260400252",
+    "flower": "HX2602307",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_10_MJG202604170039.jpg",
+    "bytes": 3338,
+    "rowText": "MJG202604170039\n超期27天19小时"
+  },
+  {
+    "row": 11,
+    "task": "MJG202604170040",
+    "design": "CSCH260400252",
+    "flower": "HX2602306",
+    "ok": true,
+    "image": "D:/ai共享盘/MyBrain/tmp_images/offline_11_MJG202604170040.jpg",
+    "bytes": 2819,
+    "rowText": "MJG202604170040\n超期27天19小时"
+  }
+]

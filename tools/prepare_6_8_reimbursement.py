@@ -78,7 +78,14 @@ def load_source_groups() -> list[tuple[Any, list[dict[str, Any]]]]:
         if serial is None or str(serial).strip() == "":
             continue
         diff = dec(row[27] if row[27] is not None else 0)
-        amount = dec(row[28]) if row[28] is not None else (dec(row[26]) + diff).quantize(Decimal("0.01"))
+        craft_fee = dec(row[25] if row[25] is not None else 0)
+        actual_amount = dec(row[26] if row[26] is not None else 0)
+        if row[28] is not None:
+            amount = dec(row[28])
+        elif actual_amount == 0 and craft_fee != 0:
+            amount = craft_fee
+        else:
+            amount = (actual_amount + diff).quantize(Decimal("0.01"))
         groups[serial].append(
             {
                 "source_row": source_row,
